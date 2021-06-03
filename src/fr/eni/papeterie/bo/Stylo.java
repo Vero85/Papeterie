@@ -17,6 +17,13 @@ public class Stylo extends Article {
     }
 
     /*
+    constructeur vide
+     */
+    public Stylo() {
+
+    }
+
+    /*
      Getter
    */
     public String getCouleur() {

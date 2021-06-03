@@ -68,7 +68,7 @@ public class Panier {
     /*
         Modifier la quantité placée ds le panier. (la quantité en stock augmente ou diminue en fonction de cette nouvelle qté)
      */
-    public void updateLigne(int index, int newQte){
+    public void updateLigne(int index, int newQte) {
         this.getLigne(index).setQte(newQte);
     }
 
